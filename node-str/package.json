@@ -1,0 +1,33 @@
+{
+  "name": "str",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@sentry/node": "^5.19.2",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "compress": "^0.99.0",
+    "debug": "^4.1.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-async-errors": "^3.1.1",
+    "helmet": "^3.23.3",
+    "http": "0.0.1-security",
+    "jsonwebtoken": "^8.5.1",
+    "knex": "^0.21.1",
+    "mongodb-autoincrement": "^1.0.1",
+    "mongoose": "^5.9.18",
+    "pg": "^8.2.1",
+    "youch": "^2.0.10",
+    "yup": "^0.29.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
